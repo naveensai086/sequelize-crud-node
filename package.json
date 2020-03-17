@@ -1,0 +1,29 @@
+{
+  "name": "sequelizedemo",
+  "version": "1.0.0",
+  "description": "sqquelizeDemo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "mocha --timeout 15000",
+    "coverage": "istanbul cover node_modules/.bin/mocha"
+  },
+  "author": "naveen",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mock-require": "^3.0.3",
+    "mysql2": "^2.1.0",
+    "request": "^2.88.0",
+    "sequelize": "^5.21.3",
+    "sequelize-mock": "^0.10.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^7.0.1",
+    "nodemon": "^2.0.2"
+  }
+}
